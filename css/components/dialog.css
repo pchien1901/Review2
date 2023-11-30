@@ -1,0 +1,55 @@
+
+.dialog-container {
+  visibility: hidden;
+  padding: 24px;
+  background-color: #ffffff;
+  width: 330px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #EBEBEB;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  display: block;
+  z-index: 1010;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1F1F1F;
+}
+
+.dialog-header .dialog-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .dialog-header i {
+  color: #1F1F1F;
+  font-weight: 600;
+} */
+
+.dialog-content {
+  padding: 24px 0px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.dialog-content i {
+  font-size: 20px;
+  margin-right: 16px;
+  color: #E61D1D;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: end;
+}
+
+.dialog-footer .m-second-btn {
+  margin-right: 8px;
+}

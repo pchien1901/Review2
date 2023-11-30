@@ -1,0 +1,237 @@
+.m-textfield-normal {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
+}
+
+.m-textfield-normal label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1F1F1F;
+  margin-bottom: 8px;
+}
+
+.m-textfield-normal input {
+  box-sizing: border-box;
+  height: 36px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  border: 1px solid #EBEBEB;
+  outline: none;
+}
+
+.m-textfield-normal input::placeholder {
+  font-weight: 400px;
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.m-textfield-normal input:hover {
+  background-color: #F6F6F6;
+}
+
+.m-textfield-normal input:focus {
+  background-color: #FFFFFF;
+  outline: 1px solid #50B83C;
+}
+
+/* Error textfield*/
+.m-textfield-error {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
+}
+
+.m-textfield-error label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1F1F1F;
+  margin-bottom: 8px;
+}
+
+.m-textfield-error input {
+  box-sizing: border-box;
+  /* width: 300px; */
+  height: 36px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  border: 1px solid #E61D1D !important;
+  outline: none;
+}
+
+.m-textfield-error input:hover {
+  background-color: #F6F6F6;
+}
+
+.m-textfield-error input:focus {
+  background-color: #FFFFFF;
+  outline:unset;
+}
+
+.m-error-message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #E61D1D;
+  position: absolute;
+  bottom: 0;
+}
+
+.m-error-message ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0px 0px 0px;
+}
+
+
+
+/*Textfield spec normal*/
+.m-textfield-spec-normal {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-textfield-spec-normal label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.m-textfield-spec-normal .m-input-group {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.m-input-group input {
+  padding: 0 30px 0 12px;
+  height: 36px;
+  /* width: 300px; */
+  border-radius: 4px;
+  border: 1px solid #EBEBEB;
+  outline: none;
+}
+
+.m-input-group input::placeholder {
+  font-weight: 400px;
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.m-input-group i {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #666666;
+}
+
+.m-textfield-spec-normal input:hover {
+  background-color: #F6F6F6;
+}
+
+.m-textfield-spec-normal input:focus {
+  background-color: #FFFFFF;
+  outline: 1px solid #50B83C;
+}
+
+/* DATE PICKER */
+.m-date-picker{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.m-date-picker label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.m-date-picker input[type="date"] {
+  box-sizing: border-box;
+  height: 36px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  color: #9E9E9E;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.m-date-picker input[type="date"]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+/* RADIO TEXTFIELD */
+.m-radio-textfield {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-radio-textfield {
+  font-size: 14px;
+}
+.m-radio-textfield :first-child {
+  font-weight: 500;
+}
+
+.m-radio-textfield :nth-child(2) {
+  padding: 12px 0px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: start;
+}
+
+.m-radio-textfield input[type="radio"] {
+  border: 2px solid #707070;
+}
+
+
+/* RADIO TEXTFIELD ROW*/
+.m-radio-textfield-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-radio-option-row {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+.m-radio-textfield-row {
+  font-size: 14px;
+}
+.m-radio-textfield-row > label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.m-radio-option-row :nth-child(2) {
+  margin: 0px 12px ;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+}
+
+.m-radio-textfield-row input[type="radio"] {
+  border: 2px solid #707070;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}

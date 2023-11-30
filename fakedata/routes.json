@@ -1,0 +1,4 @@
+{
+    "/api/cutommer": "/$1",
+    "/custommer/:Gender": "/custommer?Gender=:Gender"
+}

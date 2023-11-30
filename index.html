@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misa cuk cuk</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header-left">
+          <i class="fas fa-th"></i>
+          <div class="logo"></div>
+          <input type="text" class="search" />
+        </div>
+        <div class="avt"></div>
+      </header>
+
+      <!-- SIDEBAR -->
+      <nav class="sidebar">
+        <div class="nav">
+          <div class="nav-item">
+            <div class="icon-nav-item"><i class="fas fa-home"></i></div>
+            <div class="nav-text">Trang chủ</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon-nav-item"><i class="fas fa-chart-line"></i></div>
+            <div class="nav-text">Báo cáo</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon-nav-item"><i class="fas fa-users"></i></div>
+            <div class="nav-text">Khách hàng</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon-nav-item"><i class="fas fa-cogs"></i></div>
+            <div class="nav-text">Cài đặt</div>
+          </div>
+        </div>
+        <div class="nav-action">
+          <i class="fas fa-chevron-left"></i>
+          <div class="nav-text">Thu gọn</div>
+        </div>
+      </nav>
+
+      <!-- MAIN CONTENT -->
+      <div class="main-content">
+        <div class="main-container">
+          <!-- MAIN CONTENT HEADER -->
+          <div class="header-with-button">
+            <div class="header-title">
+              <div class="title-text">Quản lí khách hàng</div>
+            </div>
+            <div class="header-button">
+              <button class="m-primary-icon-btn" id="add-new-customer-btn">
+                <i class="fas fa-user-plus"></i>
+                Thêm mới
+              </button>
+            </div>
+          </div>
+
+          <!-- MAIN CONTENT BLOCK -->
+          <div class="main-block">
+            <!-- MAIN BLOCK HEADER -->
+            <div class="main-block-header">
+              <div class="option-for-selected">
+                <div class="total-selected">Đã chọn <b>0</b></div>
+                <button class="cancel-selected m-cancel-btn">Bỏ chọn</button>
+                <button class="delete-all-btn m-delete-text-btn">
+                  <i class="fas fa-trash"></i>
+                  Xóa tất cả
+                </button>
+              </div>
+              <div class="import-and-loading">
+                <button class="m-icon-btn import-btn">
+                  <i class="far fa-file-excel"></i>
+                </button>
+                <button class="m-icon-btn refresh-btn">
+                  <!-- <i class="fas fa-cog"></i> -->
+                  <!-- <div class="icon-loading"></div> -->
+                  <i class="fas fa-sync-alt"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- MAIN BLOCK TABLE -->
+            <div id="tableCustomer" class="table-specs">
+              <table>
+                <thead>
+                  <th>
+                    <input type="checkbox" name="" id="m-checkbox-select-all" />
+                  </th>
+                  <th>Mã khách hàng</th>
+                  <th>Họ và tên</th>
+                  <th>Giới tính</th>
+                  <th>Ngày sinh</th>
+                  <th>Công ty</th>
+                  <th>Dư nợ</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                    </td>
+                    <td>KH-9108</td>
+                    <td>Nguyễn Anh Cường</td>
+                    <td>Nam</td>
+                    <td>18/12/2022</td>
+                    <td>Công ty Cổ phần MISA</td>
+                    <td></td>
+                    <td class="action-btns">
+                      <button class="m-icon-btn btn-edit-tr-table">
+                        <i class="fas fa-pen"></i>
+                      </button>
+                      <button class="m-icon-btn btn-delete-tr-table">
+                        <!-- <i class="fas fa-ellipsis-h"></i> -->
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                    </td>
+                    <td>KH-9108</td>
+                    <td>Nguyễn Anh Cường</td>
+                    <td>Nam</td>
+                    <td>18/12/2022</td>
+                    <td>Công ty Cổ phần MISA</td>
+                    <td></td>
+                    <td class="action-btns">
+                      <button class="m-icon-btn btn-edit-tr-table">
+                        <i class="fas fa-pen"></i>
+                      </button>
+                      <button class="m-icon-btn btn-delete-tr-table">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                    </td>
+                    <td>KH-9108</td>
+                    <td>Nguyễn Anh Cường</td>
+                    <td>Nam</td>
+                    <td>18/12/2022</td>
+                    <td>Công ty Cổ phần MISA</td>
+                    <td></td>
+                    <td class="action-btns">
+                      <button class="m-icon-btn btn-edit-tr-table">
+                        <i class="fas fa-pen"></i>
+                      </button>
+                      <button class="m-icon-btn btn-delete-tr-table">
+                        <i class="fas fa-trash"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- MAIN BLOCK FOOTER -->
+            <div class="main-block-footer">
+              <div class="pagination-footer">
+                <div class="total-records">Tổng: <b>100</b></div>
+                <div class="pagination">
+                  <label>Số bản ghi/trang</label>
+                  <select name="" id="" class="dropdown-records">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>
+                  <!-- <div class="lists-records"><b>1</b> - <b>9</b> records</div> -->
+                  <div class="icon-pagination">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div id="overlay"></div>
+
+    <!-- POPUP -->
+    <div class="popup" id="dlgDetail">
+      <div class="popup-header popup-header">
+        <div class="popup-title">Thông tin khách hàng</div>
+        <button class="m-icon-btn btn-close-popup" id="btnClosePopup">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <form action="#" id="addCustomerForm">
+        <div class="popup-body">
+          <div class="group-1">
+            <div class="line-1 popup-control">
+              <div class="m-textfield-normal m-width-1 mr-8">
+                <label for="customerCode">
+                  Mã khách hàng
+                  <span>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="customerCode"
+                  placeholder=""
+                  id="customerCode"
+                />
+              </div>
+
+              <div class="m-textfield-normal m-width-3">
+                <label for="fullName">
+                  Họ và tên
+                  <span>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="fullName"
+                  placeholder=""
+                  id="fullName"
+                />
+              </div>
+            </div>
+
+            <div class="m-textfield-normal popup-control">
+              <label for="phoneNumber">Số điện thoại</label>
+              <input
+                type="text"
+                name="phoneNumber"
+                placeholder=""
+                id="phoneNumber"
+              />
+            </div>
+
+            <div class="m-textfield-normal popup-control">
+              <label for="email">Email</label>
+              <input type="text" name="email" placeholder="" id="email" />
+            </div>
+          </div>
+
+          <div class="group-2">
+            <div class="line-1 popup-control">
+              <div class="m-date-picker m-width-2 mr-8">
+                <label for="dateOfBirth">Ngày sinh</label>
+                <input type="date" name="dateOfBirth" id="dateOfBirth" />
+              </div>
+
+              <div class="m-radio-textfield-row m-width-2">
+                <label >Giới tính</label>
+                <div class="m-radio-option-row">
+                  <label class="radio-option">
+                    <input type="radio" name="gender" value="0" /> Nam
+                  </label>
+                  <label class="radio-option">
+                    <input type="radio" name="gender" value="2" /> Nữ
+                  </label>
+                  <label class="radio-option">
+                    <input type="radio" name="gender" value="1" />
+                    Khác
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="line-2 popup-control">
+              <div
+                class="m-textfield-normal m-width-2 mr-8"
+                title="Số Chứng minh thư nhân dân"
+              >
+                <label for="memberCardCode">Số CMTND</label>
+                <input
+                  type="text"
+                  name="memberCardCode"
+                  placeholder=""
+                  id="memberCardCode"
+                />
+              </div>
+
+              <div class="m-date-picker m-width-2">
+                <label for="dateOfRange">Ngày cấp</label>
+                <input type="date" name="dateOfRange" id="dateOfRange" />
+              </div>
+            </div>
+
+            <div class="m-textfield-normal popup-control">
+              <label for="memberCardCodeAddress">Nơi cấp</label>
+              <input
+                type="text"
+                name="memberCardCodeAddress"
+                placeholder=""
+                id="memberCardCodeAddress"
+              />
+            </div>
+          </div>
+
+          <div class="group-3">
+            <div class="m-textfield-normal popup-control line-1 m-width-2">
+              <label for="debitAmount">Số tiền nợ</label>
+              <input
+                type="text"
+                name="debitAmount"
+                placeholder=""
+                id="debitAmount"
+              />
+            </div>
+
+            <div class="m-textfield-normal popup-control">
+              <label for="company">Công ty</label>
+              <input type="text" name="company" placeholder="" id="company" />
+            </div>
+
+            <div class="m-textfield-normal popup-control">
+              <label for="address">Địa chỉ</label>
+              <input type="text" name="address" placeholder="" id="address" />
+            </div>
+          </div>
+        </div>
+        <div class="popup-footer popup-footer">
+          <button class="m-primary-btn" type="submit" id="submit-popup-btn">
+            Cất
+          </button>
+          <button class="m-second-btn btn-close-popup">Hủy</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- DIALOG -->
+    <div class="dialog-container">
+      <div class="dialog-header">
+        <div class="dialog-heading">Tiêu đề Dialog</div>
+        <button class="m-cancel-btn btn-close-dialog">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="dialog-content">
+        <i class="fas fa-question-circle"></i>
+        <div class="dialog-text">
+          Bạn có chắc chắn muốn xóa nhân viên không ?
+        </div>
+      </div>
+      <div class="dialog-footer">
+        <button class="m-second-btn btn-close-dialog">Hủy</button>
+        <button class="m-primary-btn btn-accept-dialog">Đồng ý</button>
+      </div>
+    </div>
+
+    <!-- TOAST -->
+    <div class="toast-message"></div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

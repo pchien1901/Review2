@@ -1,0 +1,28 @@
+
+.dropdow-company {
+  width: 260px;
+  height: 36px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E1E4;
+  border-radius: 4px;
+  padding: 0px 6px 0px 8px;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.dropdow-company:focus {
+  border-color: #50b83c;
+}
+
+.dropdow-company option {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.default-company {
+  color: #999999;
+}

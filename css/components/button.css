@@ -1,0 +1,202 @@
+.m-primary-btn {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 16px;
+  background-color: #50B83C;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+  line-height: 36px;
+  border: unset;
+}
+
+.m-primary-btn:hover {
+  background-color: #57C841;
+  cursor: pointer;
+}
+
+.m-primary-btn:active {
+  background-color: #067933;
+}
+
+/*Nút chính có icon*/
+.m-primary-icon-btn {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 16px 0 32px;
+  background-color: #50B83C;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+  line-height: 36px;
+  border: unset;
+  position: relative;
+}
+
+.m-primary-icon-btn i {
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  margin-right: 4px;
+}
+
+.m-primary-icon-btn:hover {
+  background-color: #57C841;
+  cursor: pointer;
+}
+
+.m-primary-icon-btn:active {
+  background-color: #067933;
+}
+
+
+/*Nút phụ*/
+.m-second-btn {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 16px;
+  background-color: #FFFFFF;
+  color: #1F1F1F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+  line-height: 36px;
+  border: 1px solid #E6E6E6;
+}
+
+.m-second-btn:hover {
+  color: #06cb53;
+  border-color: #06cb53;
+  cursor: pointer;
+}
+
+.m-second-btn:active {
+  background-color: #f6f6f6;
+  color: #1F1F1F;
+  border-color: #E6E6E6;
+}
+
+/* icon button */
+.m-icon-btn {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-icon-btn i {
+  font-size: 20px;
+}
+
+.m-icon-btn:hover {
+  color: #06cb53;
+  border-color: #06cb53;
+  cursor: pointer;
+}
+
+.m-icon-btn:active {
+  background-color: rgba(80,184,60,0.1);
+  color: #50B83C;
+  border-color: #50B83C;
+}
+
+.m-cancel-btn {
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #E61D1D;
+  border: none;
+  outline: none;
+  height: 36px;
+  width: auto;
+  padding: 0px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.m-cancel-btn:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.m-cancel-btn:active {
+  background-color: #EEEFF1;
+}
+
+.m-delete-text-btn {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 16px 0 32px;
+  background-color: #F5F5F5;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+  line-height: 36px;
+  border: unset;
+  position: relative;
+}
+
+.m-delete-text-btn i {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #E61D1D;
+}
+
+.m-delete-text-btn:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.m-delete-text-btn:active {
+  background-color: #EEEFF1;
+}
+
+.import-btn {
+  background-color: #ebebeb;
+}
+
+.refresh-btn {
+  background-color: #ebebeb;
+}
+
+.refresh-btn i {
+  font-size: 16px;
+}
+
+button:disabled {
+  opacity: 56%;
+  /* background-color: transparent; */
+  pointer-events: none;
+}
+
+button[disabled]:hover {
+  /* background-color: transparent; */
+  pointer-events: none;
+  cursor: unset;
+}

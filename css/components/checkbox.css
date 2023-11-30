@@ -1,0 +1,24 @@
+.m-checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.m-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.m-checkbox-container .m-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13px;
+}
